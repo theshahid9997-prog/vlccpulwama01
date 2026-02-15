@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VLCC Pulwama | Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    color:white;
+    background:
+      linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.9)),
+      url("./img.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/* HEADER */
+header{
+    padding:30px 20px;
+    text-align:center;
+    background:rgba(0,0,0,0.85);
+    border-bottom:2px solid orange;
+}
+
+header h1{
+    color:orange;
+    font-size:40px;
+}
+
+header a{
+    display:inline-block;
+    margin-top:15px;
+    color:orange;
+    text-decoration:none;
+    border:2px solid orange;
+    padding:8px 22px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+header a:hover{
+    background:orange;
+    color:black;
+}
+
+/* SECTION */
+.section{
+    max-width:900px;
+    margin:70px auto;
+    padding:0 15px;
+}
+
+/* ACCORDION */
+.accordion{
+    background:rgba(0,0,0,0.75);
+    border-radius:18px;
+    margin-bottom:22px;
+    overflow:hidden;
+    border:2px solid orange;
+    box-shadow:0 0 25px rgba(255,165,0,0.25);
+}
+
+/* REVEAL */
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:0.8s ease;
+}
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.accordion-header{
+    padding:20px 24px;
+    cursor:pointer;
+    font-size:20px;
+    background:#000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.accordion-header:hover{
+    background:orange;
+    color:black;
+}
+
+.accordion-content{
+    max-height:0;
+    overflow:hidden;
+    transition:0.5s ease;
+    background:#111;
+}
+
+.accordion-content ul{
+    list-style:none;
+    padding:22px;
+}
+
+.accordion-content li{
+    padding:9px 0;
+    border-bottom:1px solid #333;
+    color:#ddd;
+}
+
+/* BOOK BUTTON */
+.book-btn{
+    display:inline-block;
+    margin-top:18px;
+    padding:12px 28px;
+    background:orange;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:black;
+    color:#aaa;
+    border-top:2px solid orange;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+    header h1{font-size:28px;}
+    .accordion-header{font-size:17px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Our Services</h1>
+    <a href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/homepage/index.html?serverWindowId=c18771f1-8ac1-4c35-9af6-10caf0837079">← Back to Home</a>
+</header>
+
+<section class="section">
+
+<!-- HAIR -->
+<div class="accordion reveal">
+    <div class="accordion-header">Hair Services <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Hair Cut & Styling</li>
+            <li>Hair Wash & Blow Dry</li>
+            <li>Hair Spa</li>
+            <li>Ironing & Smoothening</li>
+            <li>Hair Colouring</li>
+            <li>Highlights & Streaks</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=fb28054a-8022-4d54-adef-4897e068f47a">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- TREATMENTS -->
+<div class="accordion reveal">
+    <div class="accordion-header">Hair Treatments <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Cysteine Treatment</li>
+            <li>Keratin Treatment</li>
+            <li>Hair Botox</li>
+            <li>Scalp Treatments</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/appointment.html?serverWindowId=998f5415-5686-417a-97dc-ff45f324b09d">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- SKIN -->
+<div class="accordion reveal">
+    <div class="accordion-header">Skin Care <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Clean-Ups</li>
+            <li>Basic Facials</li>
+            <li>Advanced Facials</li>
+            <li>Bridal Facials</li>
+            <li>De-Pigmentation Treatments</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=d5dbe743-de40-4d50-b6f7-3967b9d9e619">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- WAX -->
+<div class="accordion reveal">
+    <div class="accordion-header">Waxing Services <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Rica Wax</li>
+            <li>Brazilian Wax</li>
+            <li>Full Body Wax</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=d5dbe743-de40-4d50-b6f7-3967b9d9e619">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- MANI PEDI -->
+<div class="accordion reveal">
+    <div class="accordion-header">Manicure & Pedicure <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Basic</li>
+            
+            <li>Paraffin</li>
+            <li>Detox Spa</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=d5dbe743-de40-4d50-b6f7-3967b9d9e619">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- MEHNDI -->
+<div class="accordion reveal">
+    <div class="accordion-header">Mehndi Services <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Bridal Mehndi</li>
+            <li>Full / Half Hand</li>
+            <li>Arabic & Traditional</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=d5dbe743-de40-4d50-b6f7-3967b9d9e619">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+<!-- MAKEUP -->
+<div class="accordion reveal">
+    <div class="accordion-header">Makeup & Hair Styling <span>+</span></div>
+    <div class="accordion-content">
+        <ul>
+            <li>Party Makeup</li>
+            <li>Engagement Makeup</li>
+            <li>Bridal Makeup</li>
+            <li>Hair Do & Styling</li>
+            <a class="book-btn" href="http://127.0.0.1:3000/c:/Users/dell/OneDrive/Videos/vlccpulwama/New folder/index.html.html?serverWindowId=d5dbe743-de40-4d50-b6f7-3967b9d9e619">Book Appointment</a>
+        </ul>
+    </div>
+</div>
+
+</section>
+
+<footer>
+    © 2026 VLCC Pulwama | Beauty & Wellness
+</footer>
+
+<script>
+const headers=document.querySelectorAll(".accordion-header");
+const reveals=document.querySelectorAll(".reveal");
+
+headers.forEach(h=>{
+  h.addEventListener("click",()=>{
+    const c=h.nextElementSibling;
+    document.querySelectorAll(".accordion-content").forEach(x=>{
+      if(x!==c) x.style.maxHeight=null;
+    });
+    c.style.maxHeight = c.style.maxHeight ? null : c.scrollHeight+"px";
+  });
+});
+
+function reveal(){
+  reveals.forEach(r=>{
+    if(r.getBoundingClientRect().top < window.innerHeight-120){
+      r.classList.add("active");
+    }
+  });
+}
+window.addEventListener("scroll",reveal);
+window.addEventListener("load",reveal);
+</script>
+
+</body>
+</html>
